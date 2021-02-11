@@ -1,0 +1,134 @@
+body, html {
+   cursor: crosshair;
+   cursor: url('cursorurl.png'), pointer;
+}
+
+.container-fluid {
+   justify-content: space-between;
+   flex-wrap: wrap; 
+   display: flex;
+   align-items: center;
+   margin: 10px;
+
+}
+
+.name {
+   justify-content: flex-end;
+   align-self: center;
+   font-family: 'Oswald', sans-serif;
+   padding: 1.5px;
+}
+
+
+/* .logo img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2rem;
+   padding: 4rem;
+   max-width: 100%;
+} */
+
+.nav {
+   /* justify-content: center; */
+   z-index: 9;
+   padding: 3px; 
+}
+
+a.nav-link{
+   color: black;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-family: 'Oswald', sans-serif;
+   
+}
+
+a.nav-link:hover {
+   color: #bf9dd0;
+}
+
+.jumbotron {
+   background-color:transparent !important; 
+   text-align: center;
+   font-family: 'Reem Kufi', sans-serif;
+}
+
+.me {
+   width: 20%;
+}
+
+img {
+   pointer-events: none;
+}
+.card-link {
+   color: #b280cc;
+}
+
+h4 {
+   font-family: 'Oswald', sans-serif;
+}
+h2 {
+   font-family: 'Oswald', sans-serif;
+   
+}
+.place {
+   color: #b280cc;
+   font-style: italic;
+}
+
+/* .hello {
+   cursor: url('cursorurl.png'), pointer;
+
+} */
+
+.jumbotron p {
+   font-size: 1.5rem;
+}
+
+.experience {
+   margin-bottom: 1rem;
+}
+.some i {
+   padding: 3rem;
+   font-size: 2rem;
+   color: lightgrey;
+}
+
+.footer {
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+   .nav {
+     margin-left: auto !important;
+     margin-right: auto !important;
+   }
+
+   .name {
+      margin-left: auto !important;
+      margin-right: auto !important;
+   }
+
+   /* .jumbotron {
+      visibility: hidden;
+      margin-top: -13rem;
+   } */
+   .jumbotron h1 {
+      font-size: 1.5rem;
+   }
+   .jumbotron p {
+      font-size: 1rem;
+   }
+ }
+
+ /* progress */
+ .skills {
+   padding: 2rem;
+ }
+ .progress-bar {
+    background-color:  #bf9dd0 !important;
+ }
+ 
+
