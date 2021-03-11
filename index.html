@@ -28,99 +28,66 @@
   <!-- fontawesome -->
   <script src="https://kit.fontawesome.com/e78a017d2b.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" type="image/jpg" href="/image/favicon.png"/>
-    <title>Document</title>
+    <title>Aleksandra Portfolio</title>
 </head>
 <body>
 
   <div class="container-fluid">
-      <!-- <div class="logo">
-        <img src="/image/artsylogo.png" alt="logo" >
-      </div> -->
-
+    
       <h1 class="name">aleksandra dahlqvist</h1>
 
-        <!-- <ul class="nav"> -->
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li> -->
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Work Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Education</a>
-            </li>
-          </ul> -->
        </div>
 
 
         <div class="jumbotron">
             <h1 class="hello">Hello World!</h1>
             <p>I'm Aleksandra, a web developer student.</p>
-            <p>Welcome to my under construction portfolio! </p>
-            <img class="me" src="/image/IMG_0501 (1).jpg" alt="meMyselfAndI">
+            <p>Welcome to my portfolio! </p>
+            <img class="me" src="./image/kuva.jpg" alt="meMyselfAndI">
         </div>
       
        <hr>
      
         <div class="container">
-          <h2>- Skills -</h2>
-          <section class="skills">
-            <div class="progress" style="height: 20px;">
-              <div class="progress-bar" style="width:55%"></div>
+            <h2>- Skills -</h2>
+            <div class="row mt-3">
+            <div class="col-sm-6">
+              <h4>DevTools: </h4>
+              <ul>
+                <li>
+                  <strong>Frontend Coding: </strong>Angular
+                </li>
+                <li>
+                  <strong>Databases: </strong> Microsoft SQL Server
+                </li>
+                <li class="technologies__item">
+                  <strong>Languages: </strong>C#, Typescript
+                </li>
+              </ul>
             </div>
-            <p>HTML | Intermediate</p>
-
-            <div class="progress" style="height: 20px;">
-              <div class="progress-bar" style="width:55%"></div>
+            <div class="col-sm-6">
+              <h4>Other: </h4>
+              <ul>
+                <li>
+                  <strong>Project Management: </strong>Azure DevOps
+                </li>
+                <li>
+                  <strong>IDEs: </strong> VS Code & Visual Studio 2019
+                </li>
+                <li class="technologies__item">
+                  <strong>Version control: </strong>Git Extensions
+          
+                </li>
+              </ul>
             </div>
-            <p>CSS | Intermediate</p>
-
-            <div class="progress" style="height: 20px;">
-              <div class="progress-bar" style="width:55%"></div>
-            </div>
-            <p>Bootstrap | Intermediate</p>
-            
-            <div class="progress" style="height: 20px;">
-              <div class="progress-bar" style="width:40%"></div>
-            </div>
-            <p>Angular | Basics</p>
-
-            <div class="progress" style="height: 20px;">
-              <div class="progress-bar" style="width:15%"></div>
-            </div>
-            <p>C# | Basics</p>
-
-            <div class="progress" style="height: 20px;">
-              <div class="progress-bar" style="width:20%"></div>
-            </div>
-            <p>SQL | Basics</p>
-
-            <div class="progress" style="height: 20px;">
-              <div class="progress-bar" style="width:40%"></div>
-            </div>
-            <p>Git | Basics</p>
-
-            <div class="progress" style="height: 20px;">
-              <div class="progress-bar" style="width:22%"></div>
-            </div>
-            <p>Azure DevOps | Basics</p>
-
-            <div class="progress" style="height: 25px;">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 77%">And much more to come ==>>></div>
-            </div>
+          </div>
 
           </section>
           <h2 style="margin-top: 1rem;">- Code projects -</h2>
         <div class="row">
           <div class="col-sm-4">
             <div class="card">
-                <img class="card-img-top" src="/image/wishlist.png" alt="Card image cap">
+                <img class="card-img-top" src="./image/wishlist.png" alt="Card image cap">
                 <div class="card-body">
                   <h4 class="card-title">Wishlist | Angular</h4>
                   <p class="card-text">A group project for a program that generates different kind of wishlists.</p>
@@ -131,7 +98,18 @@
           </div>
           <div class="col-sm-4">
             <div class="card">
-                <img class="card-img-top" src="/image/mystore.png" alt="Card image cap">
+                <img class="card-img-top" src="./image/hspa.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">HSPA | Angular</h4>
+                  <p class="card-text">A house listing angular application.</p>
+                  <a href="https://6049ca778fb7044d50fa91b7--festive-haibt-e16025.netlify.app/" class="card-link">Try it out!</a>
+                  <a href="https://github.com/aldaale/angular-asp.net-app" class="card-link">Sourcecode</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top" src="./image/mystore.png" alt="Card image cap">
                 <div class="card-body">
                   <h4 class="card-title">My Store | Angular</h4>
                   <p class="card-text">Angular app for a imaginary phonestore.</p>
@@ -142,7 +120,7 @@
           </div>
           <div class="col-sm-4">
             <div class="card">
-                <img class="card-img-top" src="/image/tuoteluettelo.png" alt="Card image cap" url>
+                <img class="card-img-top" src="./image/tuoteluettelo.png" alt="Card image cap" url>
                 <div class="card-body">
                   <h4 class="card-title">Product List | Angular</h4>
                   <p class="card-text">Another Angular app for a imaginary phonestore. </p>
@@ -153,18 +131,7 @@
           </div>
           <div class="col-sm-4">
             <div class="card">
-                <img class="card-img-top" src="/image/heroes.png" alt="Card image cap" url>
-                <div class="card-body">
-                  <h4 class="card-title">Tour Of Heroes | Angular</h4>
-                  <p class="card-text">Another Angular app for a imaginary phonestore. </p>
-                  <!-- <a href="#" class="card-link">Try it out!</a> -->
-                  <a href="https://github.com/aldaale/angular-tour-of-heroes-new" class="card-link">Sourcecode</a>
-                </div>
-              </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card">
-                <img class="card-img-top" src="/image/tictactoe.png" alt="Card image cap" url>
+                <img class="card-img-top" src="./image/tictactoe.png" alt="Card image cap" url>
                 <div class="card-body">
                   <h4 class="card-title">TicTacToe | Angular</h4>
                   <p class="card-text">A simple Tic-Tac-Toe game </p>
@@ -175,7 +142,7 @@
           </div>
           <div class="col-sm-4">
             <div class="card">
-                <img class="card-img-top" src="/image/laskin.png" alt="Card image cap" url>
+                <img class="card-img-top" src="./image/laskin.png" alt="Card image cap" url>
                 <div class="card-body">
                   <h4 class="card-title">Calculator | C#</h4>
                   <p class="card-text">A calculator made with C#  </p>
@@ -216,7 +183,7 @@
               <hr>
 
             <h2>- Education -</h2>
-            <h4>BUSINESS COLLAGE HELSINKI | AUTUMN 2020 - PRESENT</h4>
+            <h4>BUSINESS COLLEGE HELSINKI | AUTUMN 2020 - PRESENT</h4>
             <h4 class="place">Software Developer - Angular & .Net </h4>
               <ul>
                 <li>Including Vocatinal Qualification in Information and Communications Technology </li>
